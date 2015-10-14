@@ -127,9 +127,9 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // admin_page
-        if ($pathinfo === '/admin') {
-            return array (  '_controller' => 'controller.app.homepage:__invoke',  '_route' => 'admin_page',);
+        // homepage
+        if ($pathinfo === '/home') {
+            return array (  '_controller' => 'controller.app.homepage:__invoke',  '_route' => 'homepage',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

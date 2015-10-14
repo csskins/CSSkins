@@ -15,14 +15,28 @@ class __TwigTemplate_506ae6d238b535273146042b21b1a5e7ecc53aeabd5b192202f824934c8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_79a5cc8eb923e1c2f4407b6528af065d0f601e4f13c64375ffeaa8c4fc0211d0 = $this->env->getExtension("native_profiler");
-        $__internal_79a5cc8eb923e1c2f4407b6528af065d0f601e4f13c64375ffeaa8c4fc0211d0->enter($__internal_79a5cc8eb923e1c2f4407b6528af065d0f601e4f13c64375ffeaa8c4fc0211d0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Homepage:homepage.html.twig"));
+        $__internal_64dd9be02f47637faaf4828e3670448e8fdb363e1de42b67cc0715ac125f5ed7 = $this->env->getExtension("native_profiler");
+        $__internal_64dd9be02f47637faaf4828e3670448e8fdb363e1de42b67cc0715ac125f5ed7->enter($__internal_64dd9be02f47637faaf4828e3670448e8fdb363e1de42b67cc0715ac125f5ed7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Homepage:homepage.html.twig"));
 
         // line 1
         echo "<title>CS:GO-Skins</title>
-<h1 style=\"text-align: center\">Hello Calvin</h1>";
+<div>
+    <h1 style=\"text-align: center\">Title</h1>
+</div>
+
+<div style=\"margin-left: auto; margin-right: auto;\">
+    <form>
+        User Name:<br>
+        <input type=\"text\" name=\"username\" value=\"username\" placeholder=\"Username\">
+        <br>
+        Password:<br>
+        <input type=\"password\" name=\"password\" value=\"password\" placeholder=\"Password\">
+        <br>
+        <input type=\"submit\" value=\"submit\">
+    </form>
+</div>";
         
-        $__internal_79a5cc8eb923e1c2f4407b6528af065d0f601e4f13c64375ffeaa8c4fc0211d0->leave($__internal_79a5cc8eb923e1c2f4407b6528af065d0f601e4f13c64375ffeaa8c4fc0211d0_prof);
+        $__internal_64dd9be02f47637faaf4828e3670448e8fdb363e1de42b67cc0715ac125f5ed7->leave($__internal_64dd9be02f47637faaf4828e3670448e8fdb363e1de42b67cc0715ac125f5ed7_prof);
 
     }
 
@@ -37,4 +51,18 @@ class __TwigTemplate_506ae6d238b535273146042b21b1a5e7ecc53aeabd5b192202f824934c8
     }
 }
 /* <title>CS:GO-Skins</title>*/
-/* <h1 style="text-align: center">Hello Calvin</h1>*/
+/* <div>*/
+/*     <h1 style="text-align: center">Title</h1>*/
+/* </div>*/
+/* */
+/* <div style="margin-left: auto; margin-right: auto;">*/
+/*     <form>*/
+/*         User Name:<br>*/
+/*         <input type="text" name="username" value="username" placeholder="Username">*/
+/*         <br>*/
+/*         Password:<br>*/
+/*         <input type="password" name="password" value="password" placeholder="Password">*/
+/*         <br>*/
+/*         <input type="submit" value="submit">*/
+/*     </form>*/
+/* </div>*/
