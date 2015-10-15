@@ -7,4 +7,8 @@
     <route id="homepage" path="/home">
         <default key="_controller">controller.app.homepage:__invoke</default>
     </route>
+
+    <route id="admin_homepage" path="/admin_home">
+        <default key="_controller">controller.app.admin_homepage:__invoke</default>
+    </route>
 </routes>
