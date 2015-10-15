@@ -1,4 +1,6 @@
-my_project
+CSSkins
 ==========
 
-A Symfony project created on October 5, 2015, 10:45 am.
+A Symfony project:
+
+first step - Create Basic Homepage, returning a twig template and a functional login in box for two admins
